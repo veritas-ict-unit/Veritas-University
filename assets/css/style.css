@@ -278,10 +278,11 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 70vh;
-  background-color: rgba(9, 9, 9, 0.1);
+  background-color: rgba(9, 9, 9, 0.2);
   overflow: hidden;
   position: relative;
 }
+
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
   background-size: cover;
   background-position: center;
@@ -294,26 +295,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(45, 103, 60, 0.4);
+  background-color: rgba(45, 103, 60, 0.2);
 }
+
 #hero .carousel-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   position: absolute;
-  bottom: 0;
+  bottom: 85px;
   top: 0;
-  left: 50px;
-  right: 50px;
+  left: 0;
+  right: 0;
 }
 #hero .container {
-  text-align: center;
+  text-align: left;
+  margin-top: 20px;
 }
 #hero h2 {
   color: #fff;
-  margin-bottom: 20px;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 950;
 }
 #hero p {
   -webkit-animation-delay: 0.4s;
@@ -377,7 +379,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 14px 32px;
+  padding: 14px 22px;
   border-radius: 4px;
   transition: 0.5s;
   line-height: 1;
@@ -394,7 +396,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
   }
   #hero .carousel-container {
-    top: 66px;
+    top: 50px;
   }
 }
 @media (max-width: 768px) {
@@ -409,13 +411,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-height: 500px) {
   #hero {
-    height: 120vh;
+    height: 100vh;
   }
 }
 
 /*--------------------------------------------------------------
 # Sections General
-
 --------------------------------------------------------------*/
 
 section {
@@ -423,7 +424,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f8fcf9;
+  background-color: white;
 }
 
 .section-title {
@@ -433,7 +434,7 @@ section {
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -459,7 +460,7 @@ section {
   left: calc(50% - 20px);
 }
 .section-title p {
-  margin-bottom: 0;
+  margin-bottom: 10px;
   font-size: 14px;
   color: #80c792;
 }
@@ -482,7 +483,7 @@ section {
 }
 .featured-services .icon i {
   color: #5cb874;
-  font-size: 42px;
+  font-size: 35px;
 }
 .featured-services .title {
   font-weight: 700;
@@ -533,7 +534,8 @@ section {
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
-  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+  box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 .services .icon-box .icon {
   margin: 0 auto;
@@ -562,7 +564,7 @@ section {
 .services .icon-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
-  font-size: 22px;
+  font-size: 20px;
 }
 .services .icon-box h4 a {
   color: #222222;
@@ -591,7 +593,7 @@ section {
 --------------------------------------------------------------*/
 .cta {
   background: #5cb874;
-  padding: 80px 0;
+  padding: 50px 0;
 }
 .cta h3 {
   color: #fff;
@@ -602,18 +604,16 @@ section {
   color: #fff;
 }
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 30px;
-  border-radius: 2px;
+  border-radius: 7px;
   transition: 0.5s;
   margin: 10px;
   border: 2px solid #fff;
   color: #fff;
-  border-radius: 4px;
 }
 .cta .cta-btn:hover {
   background: #fff;
@@ -637,7 +637,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
-}
+} 
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 20px auto;
@@ -651,11 +651,10 @@ section {
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
-  text-transform: uppercase;
   color: #444444;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
@@ -669,7 +668,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(34, 34, 34, 0.6);
+  background: rgba(34, 34, 34, 0.3);
 }
 .portfolio .portfolio-wrap::before {
   content: "";
@@ -710,10 +709,8 @@ section {
 .portfolio .portfolio-wrap .portfolio-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
-  text-transform: uppercase;
   padding: 0;
   margin: 0;
-  font-style: italic;
 }
 .portfolio .portfolio-wrap .portfolio-links {
   text-align: center;
@@ -721,8 +718,8 @@ section {
 }
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  /* margin: 0 5px 0 0; */
-  font-size: 40px;
+  margin: 0 5px 0 0;
+  font-size: 20px;
   display: inline-block;
   transition: 0.3s;
 }
@@ -733,7 +730,7 @@ section {
   opacity: 1;
 }
 .portfolio .portfolio-wrap:hover img {
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
@@ -799,7 +796,7 @@ section {
 .team .member {
   text-align: center;
   margin-bottom: 20px;
-  box-shadow: 0px 0px 12px 0px rgba(34, 34, 34, 0.07);
+  box-shadow: 0px 0px 12px 0px rgba(34, 34, 34, 0.17);
   padding: 30px 20px;
   background: #fff;
 }
@@ -823,20 +820,6 @@ section {
   font-size: 14px;
   font-style: italic;
   color: #aaaaaa;
-}
-.team .member .social {
-  margin-top: 15px;
-}
-.team .member .social a {
-  color: #919191;
-  transition: 0.3s;
-}
-.team .member .social a:hover {
-  color: #5cb874;
-}
-.team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
 }
 
 /*--------------------------------------------------------------
@@ -957,52 +940,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 15px 0;
-  background: #fbfbfb;
-  min-height: 40px;
-}
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 66px;
-  }
-}
-.breadcrumbs h2 {
-  font-size: 28px;
-  font-weight: 300;
-}
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #3c3c3c;
-  content: "/";
-}
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-  .breadcrumbs ol {
-    display: block;
-  }
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-}
-
-/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
@@ -1017,7 +954,7 @@ section {
   font-weight: 700;
   color: #fff;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
   padding: 0;
   margin: 0 0 15px 0;
 }
