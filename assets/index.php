@@ -8,7 +8,6 @@
   <title>Home | Veritas University </title>
   <meta content="Veritas university Abuja, the catholic university of Nigeria" name="description">
   <meta content="Universities, University, catholic university, abuja, private university" name="keywords">
-
   <!-- Favicons -->
 
   <!-- Google Fonts -->
@@ -90,11 +89,20 @@
 
       <div class="carousel-inner" role="listbox"> -->
         <!-- Slide 1 -->
+<<<<<<< HEAD:assets/index.php
         <!-- <div class="carousel-item active" style="background-image: url(assets/img/slide2.jpg)">
+=======
+        <div class="carousel-item active">
+          <picture>
+            <source srcset="assets/img/basketball1400x500.png" media="(min-width: 769px)">
+            <source srcset="assets/img/basketball800x500.png" media="(min-width: 577px)">
+            <img srcset="assets/img/basketball.jpg" alt="responsive image" class="d-block img-fluid">
+          </picture>
+>>>>>>> 6143dbe557df20f073d26612d32b4b7c07dc7ded:index.html
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Veritas University, Abuja</span></h2>
-              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.</p> 
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">About Us</a>
             </div>
           </div>
@@ -105,7 +113,7 @@
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <!-- <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.</p> -->
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
@@ -114,9 +122,9 @@
         <!-- Slide 3 -->
         <!-- <div class="carousel-item" style="background-image: url(assets/img/resized/EMBASSY.jpeg);" >
           <div class="carousel-container">
-            <div class="container">
+            <div class="container headertext">
               <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <!-- <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.</p> -->
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
@@ -127,7 +135,7 @@
           <div class="carousel-container">
             <div class="container">
               <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-              <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+              <!-- <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.</p> -->
               <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
             </div>
           </div>
@@ -202,7 +210,7 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2">
-            <img src="assets/img/veritas.jpg" class="img-fluid" alt="">
+            <img src="assets/img/Vuna1.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
@@ -398,6 +406,50 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
+              <img src="assets/img/basketball.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Launching</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Sapiente quidem odio excepturi beatae debitis. Repudiandae.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/basketball.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="View Image"><i class="bi bi-card-image"></i></a>
+                  <a href="pages/portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/cafe.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Launching</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Sapiente quidem odio excepturi beatae debitis. Repudiandae.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/cafe.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="View Image"><i class="bi bi-card-image"></i></a>
+                  <a href="pages/portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/bishop.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Launching</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Sapiente quidem odio excepturi beatae debitis. Repudiandae.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/bishop.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="View Image"><i class="bi bi-card-image"></i></a>
+                  <a href="pages/portfolio-details.html" title="More Details"><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
               <img src="assets/img/bishop.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Launching</h4>
@@ -475,8 +527,8 @@
                 <h4>Call:</h4>
                 <p>+234 5589 55488 55</p>
               </div>
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1117.117261839371!2d7.414191261153531!3d9.2887092623519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104ddd355dd5d403%3A0xda871c1390c7f68a!2sVeritas%20University!5e0!3m2!1sen!2sng!4v1650439281882!5m2!1sen!2sng" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1117.117261839371!2d7.414191261153531!3d9.2887092623519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104ddd355dd5d403%3A0xda871c1390c7f68a!2sVeritas%20University!5e0!3m2!1sen!2sng!4v1650439281882!5m2!1sen!2sng" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen>
+              </iframe> 
             </div>
 
           </div>
