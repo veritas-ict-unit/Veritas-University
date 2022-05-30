@@ -619,6 +619,21 @@ section {
   background: #fff;
   color: #5cb874;
 }
+/* .event{
+background-color: white;  
+ height: auto;
+ width: 5px;
+ 
+  overflow-x: scroll;
+  
+
+} */
+.cta .scroll {
+	
+  width: 1000px;
+  overflow: auto;
+  white-space: nowrap;
+}
 @media (max-width: 1024px) {
   .cta {
     background-attachment: scroll;
